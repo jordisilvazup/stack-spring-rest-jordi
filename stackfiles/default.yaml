@@ -1,14 +1,14 @@
 type: app
 description: Default stackfile usecase description
 # template used to create the project
-template: rest-api-spring-jordi/<template-name>
+template: rest-api-spring-jordi/stack-spring-jordi-template
 inputs:
   some_input: value
 # list of plugins to be applied after project creation
-plugins:
-  - plugin: rest-api-spring-jordi/<plugin-name>
-    inputs:
-      some_input: value
-      some_list:
-        - item1
-        - item2
+#plugins:
+#  - plugin: rest-api-spring-jordi/<plugin-name>
+#    inputs:
+#      some_input: value
+#      some_list:
+#        - item1
+#        - item2
